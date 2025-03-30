@@ -1,0 +1,135 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p {
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+}
+
+.language-selector {
+    font-size: 14px;
+    color: #555;
+    text-align: right;
+    margin-bottom: 50px;
+}
+p{
+  text-align: center; 
+  
+}
+.logo1 img{
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-form button {
+    width: 100%;
+    background-color: #1877f2;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-form button:hover {
+    background-color: #165ec9;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+.create-account {
+  position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #1877f2;
+    border-radius: 20px;
+    background-color: white;
+    color: #1877f2;
+    cursor::pointer;
+    margin-top: 20px;
+}
+
+.create-account:hover {
+    background-color: #e7f3ff
+}
+.meta{
+position:absolute;
+bottom: -20px;
+left: 50%;
+transform: translateX(-50%);
+} 
+.ff input::placeholder {
+position: absolute;
+top: 50%;
+left: 12px;
+transform: translateY(-50%);
+color: gray;
+font-size:16px;
+transition: all 0.3s ease-in-out;
+}
+.ff input:: focus::placeholder,
+.ff input:not(:placeholder-shown)::placeholder{
+top:5px;
+font-size:12px;
+color:grey;
+}
+.ff input
+{
+    width:100%;
+    padding:12px;
+    border: 1px solid;
+     border radius:5px;
+     font-size: 16px;
+     outline:none;
+    transition: all 0.3s ease-in-out;
+}
+
+.ff {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}

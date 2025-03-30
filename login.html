@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            background-color: #f0f2f5;
+        }
+        .sidebar {
+            width: 250px;
+            background: #fff;
+            padding: 20px;
+            height: 100vh;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 10px 0;
+        }
+        .sidebar ul li {
+            padding: 10px 0;
+        }
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #1877f2;
+            font-weight: bold;
+        }
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+        .post {
+            background: #fff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .right-sidebar {
+            width: 250px;
+            background: #fff;
+            padding: 20px;
+            height: 100vh;
+            box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+        }
+        .right-sidebar h3 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+        <h2>Facebook</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Friends</a></li>
+            <li><a href="#">Messages</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h2>News Feed</h2>
+        <div class="post">
+            <h4>John Doe</h4>
+            <p>Just enjoying a sunny day! ☀️</p>
+        </div>
+        <div class="post">
+            <h4>Jane Smith</h4>
+            <p>Had an amazing weekend trip! 🏕️</p>
+        </div>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="right-sidebar">
+        <h3>People You May Know</h3>
+        <p>Mike Johnson</p>
+        <p>Lisa White</p>
+    </div>
+
+</body>
+</html>
